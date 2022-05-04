@@ -113,3 +113,7 @@ th,td{
     left: 40%;
     display: none;
 }
+
+#save{
+    display: none;
+}
