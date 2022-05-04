@@ -233,7 +233,7 @@ sbt.onclick = function(){
 sbc.onclick = function(){
     
     let table = '';
-    let value = search.value.toLowerCase().trime();
+    let value = search.value.toLowerCase();
     search.value = '';
     search.placeholder = 'Search By Category'
     for (let i = 0; i < Data.length; i++)
